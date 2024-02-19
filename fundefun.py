@@ -9,7 +9,7 @@ def suma(*args) -> int: #el * hace mencion a un n numero de argumentos que puedo
         result += argument
     return result
 
-ejecutar(print, 'Hola', 'Koder')
+#ejecutar(print, 'Hola', 'Koder')
 
-print(ejecutar(suma, 1,2,3,4,5,6))
+print(suma(1,2,3,4,5,6))
 #ejecutar ( funcion --> suma , *args --> del 1 al 6)
